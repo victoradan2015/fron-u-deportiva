@@ -1,17 +1,25 @@
 <template>
   <div id="app">
-    <img alt="Vue logo" src="./assets/logo.png">
-    <HelloWorld msg="Welcome to Your Vue.js App"/>
+    <nav-bar/>
+    <Registro/>
+    <Login/>
+    <registro-alumno/>
   </div>
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
+import NavBar from './components/NavBar.vue'
+import RegistroAlumno from './components/registro/RegistroAlumno.vue'
+import Login from './components/sesion/Login.vue'
+import Registro from './components/sesion/Registro.vue'
 
 export default {
   name: 'App',
   components: {
-    HelloWorld
+    Registro,
+    Login,
+    NavBar,
+    RegistroAlumno,
   }
 }
 </script>

@@ -1,6 +1,6 @@
 <template>
   <div class="hello">
-    <nav class="navbar navbar-light bg-primary justify-content-between">
+    <nav class="toggleable=md navbar navbar-light bg-primary justify-content-between">
       <a class="navbar-brand text-light" href="#">
         <img src="/docs/4.0/assets/brand/bootstrap-solid.svg" width="30" height="30" class="d-inline-block align-top" alt="">
         Ricardo Farías
@@ -20,7 +20,7 @@
 
 export default {
   components: { },
-  name: 'HelloWorld',
+  name: 'NavBar',
   props: {
     msg: String
   }
